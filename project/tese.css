@@ -1,0 +1,166 @@
+/********BODY DECORATIONS***********/
+
+body {
+	background-color:#f6f6f6;
+	margin-top: 160px;
+
+}
+header {
+	float: left;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	background-color: #1E56A0;
+	width:100%;
+	z-index: 10000;
+    color: white;
+}
+footer {
+	background-color: #163172;
+	position: relative;
+}
+/******SEARCH BUTTON*****/
+input[type=text] {
+    width: 400px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+}
+/*************MAIN CONTAINER DIVS*********/
+
+.universities {
+	text-align: center;
+	overflow: auto;
+	margin-top: 3px;
+	margin-bottom: 60px;
+    color: #1E56A0;
+}
+.UZ {
+    text-align: left;
+    color:#1E56A0;
+    
+}
+.msu {
+text-align: left;
+color: #1E56A0;
+}
+.cut {
+	text-align: left;
+	margin-bottom: 60px;
+    color: #1E56A0;
+
+}
+/*******IMAGES DIVS************/
+.im{
+	display: inline-block;
+	margin: 1px;
+	padding: 5px;
+}
+.pic {
+    vertical-align: middle;
+}
+img {
+	border-radius: 25px;
+}
+/******NAVIGATION************/
+.navigation {
+	float: right;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+	background-color: #f6f6f6;
+}
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+    border-right: 2px;
+    border-bottom: 2px;
+	
+}
+nav a {
+	font-weight: 700;
+	padding: 15px 10px;
+    margin: 0.3px;
+}
+
+/**********FORMS******************/
+/* Bordered form */
+form {
+    width: 50%;
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/*********8trial text*********/
+.nyora{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.im:hover .nyora {
+    display:inline-block;
+}
+.im {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 50px;
+}
+
